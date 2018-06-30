@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="./assets/images/crystal-icon.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>Crystals Collector</title>
+</head>
+
+<body>
+    <header>
+      <h1>Crystals Collector!</h1>
+      <div class="description">
+
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals bellow. By clicking on a crystal you will add a specific amount of your total score.</p>
+            <p>You win the game by matching your total score to random number. You lose the game if your total score goes above the
+              random number.
+            </p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal</p>
+      
+          </div>
+        </header>
+        <div class="number">
+          <span id="number"></span>
+        </div>
+        <div class="wins-losses">
+          <h3 id="message"></h3>
+          <h3 class="status">Wins:
+            <span id="wins">0</span>
+          </h3>
+          <h3 class="status">Losses:
+            <span id="losses">0</span>
+          </h3>
+        </div>
+        <div class="crystals">
+          <div class="crystal-bg gold">
+            <img class="crystal gold" src="./assests/images/gold.png" alt="gold">
+          </div>
+          <div class="crystal-bg blue">
+            <img class="crystal blue" src="./assests/images/blue.png" alt="blue">
+          </div>
+          <div class="crystal-bg purple">
+            <img class="crystal purple" src="./assests/images/purple.png" alt="purple">
+          </div>
+          <div class="crystal-bg green">
+            <img class="crystal green" src="./assests/images/green.png" alt="green">
+          </div>
+        </div>
+        <div class="score">
+          <h3 class="score-heading">Your total score is:</h3>
+      
+          <h3 id="score">0
+            <h3>
+      
+        </div>
+      
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+        <script src="./assets/scripts/script.js"></script>
+      </body>
+      
+      </html>
+      
